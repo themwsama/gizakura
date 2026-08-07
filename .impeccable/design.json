@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-04T14:21:00.000Z",
+  "title": "Design System: Gizakura",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Blush Ground",
+        "canonical": "#f8ece8",
+        "tonalRamp": ["#2a2422", "#4a403c", "#6d6561", "#9a908a", "#c4bab4", "#ddd4cf", "#f0ebe6", "#f8ece8"]
+      },
+      "bg-hero": {
+        "role": "neutral",
+        "displayName": "Hero Blush",
+        "canonical": "#f9e9e5",
+        "tonalRamp": ["#2a2422", "#4a403c", "#6d6561", "#9a908a", "#c4bab4", "#ddd4cf", "#f0ebe6", "#f9e9e5"]
+      },
+      "bg-team": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#faf8f6",
+        "tonalRamp": ["#2a2422", "#4a403c", "#6d6561", "#9a908a", "#c4bab4", "#ddd4cf", "#f0ebe6", "#faf8f6"]
+      },
+      "bg-portfolio": {
+        "role": "neutral",
+        "displayName": "Stone Portfolio",
+        "canonical": "#e8e4dc",
+        "tonalRamp": ["#2a2422", "#4a403c", "#6d6561", "#9a908a", "#b8b0a6", "#ccc4ba", "#ddd6cc", "#e8e4dc"]
+      },
+      "bg-soft": {
+        "role": "neutral",
+        "displayName": "Soft Panel",
+        "canonical": "#f0ebe6",
+        "tonalRamp": ["#2a2422", "#4a403c", "#6d6561", "#9a908a", "#c4bab4", "#ddd4cf", "#ebe4de", "#f0ebe6"]
+      },
+      "bg-card": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#1a1917", "#3d3a38", "#6d6561", "#9a908a", "#c4bab4", "#ddd4cf", "#f0ebe6", "#ffffff"]
+      },
+      "bg-dark": {
+        "role": "neutral",
+        "displayName": "Ink Dark",
+        "canonical": "#141312",
+        "tonalRamp": ["#0a0908", "#141312", "#1f1e1c", "#2a2826", "#3d3a38", "#6d6561", "#a8a098", "#f8ece8"]
+      },
+      "fg": {
+        "role": "neutral",
+        "displayName": "Ink Text",
+        "canonical": "#1a1917",
+        "tonalRamp": ["#0a0908", "#141312", "#1a1917", "#3d3a38", "#6d6561", "#9a908a", "#c4bab4", "#f8ece8"]
+      },
+      "fg-on-dark": {
+        "role": "neutral",
+        "displayName": "Cream on Dark",
+        "canonical": "#f8ece8",
+        "tonalRamp": ["#141312", "#3d3a38", "#6d6561", "#9a908a", "#c4bab4", "#ddd4cf", "#f0ebe6", "#f8ece8"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Warm Muted",
+        "canonical": "#6d6561",
+        "tonalRamp": ["#1a1917", "#2a2826", "#3d3a38", "#4a4541", "#6d6561", "#9a908a", "#c4bab4", "#f0ebe6"]
+      },
+      "muted-on-dark": {
+        "role": "neutral",
+        "displayName": "Ash on Dark",
+        "canonical": "#a8a098",
+        "tonalRamp": ["#141312", "#2a2826", "#3d3a38", "#6d6561", "#78716c", "#a8a098", "#c4bab4", "#f8ece8"]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint Label",
+        "canonical": "#78716c",
+        "tonalRamp": ["#1a1917", "#2a2826", "#3d3a38", "#4a4541", "#6d6561", "#78716c", "#9a908a", "#c4bab4"]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Sakura Rose",
+        "canonical": "#c45c6a",
+        "tonalRamp": ["#3d1a20", "#6b2e38", "#8f3f4c", "#a84d5a", "#c45c6a", "#d47a86", "#e8a8b0", "#f8ece8"]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Accent Soft Wash",
+        "canonical": "rgba(196, 92, 106, 0.14)",
+        "tonalRamp": ["#3d1a20", "#6b2e38", "#8f3f4c", "#a84d5a", "#c45c6a", "#d47a86", "#e8a8b0", "#f8ece8"]
+      },
+      "contact-label": {
+        "role": "tertiary",
+        "displayName": "Contact Label Rose",
+        "canonical": "#c98a94",
+        "tonalRamp": ["#3d1a20", "#6b2e38", "#8f3f4c", "#a84d5a", "#c45c6a", "#c98a94", "#d9a8b0", "#f2c8cf"]
+      },
+      "contact-heading": {
+        "role": "tertiary",
+        "displayName": "Contact Heading Blush",
+        "canonical": "#f2c8cf",
+        "tonalRamp": ["#3d1a20", "#6b2e38", "#8f3f4c", "#c45c6a", "#c98a94", "#d9a8b0", "#e8c4ca", "#f2c8cf"]
+      },
+      "contact-body": {
+        "role": "tertiary",
+        "displayName": "Contact Body Rose",
+        "canonical": "#d9a8b0",
+        "tonalRamp": ["#3d1a20", "#6b2e38", "#8f3f4c", "#a84d5a", "#c45c6a", "#c98a94", "#d9a8b0", "#f0d0d5"]
+      },
+      "contact-link": {
+        "role": "tertiary",
+        "displayName": "Contact Link Light",
+        "canonical": "#f0d0d5",
+        "tonalRamp": ["#3d1a20", "#6b2e38", "#8f3f4c", "#c45c6a", "#c98a94", "#d9a8b0", "#e8c4ca", "#f0d0d5"]
+      },
+      "nav-glass": {
+        "role": "neutral",
+        "displayName": "Nav Glass",
+        "canonical": "rgba(249, 233, 229, 0.9)",
+        "tonalRamp": ["#141312", "#3d3a38", "#6d6561", "#9a908a", "#c4bab4", "#ddd4cf", "#f0ebe6", "#f9e9e5"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Hero Display",
+        "purpose": "Hero wordmark only — site name at massive scale."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "h2 section titles and contact heading."
+      },
+      "title": {
+        "displayName": "Card Title",
+        "purpose": "Founder names, product names, card headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs, nav wordmark sizing context, general prose."
+      },
+      "label": {
+        "displayName": "Section Label",
+        "purpose": "Section numbers (001–004), field labels, footer columns."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-editorial",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Enter and inView scroll animations via useMotionSafe()."
+      },
+      {
+        "name": "duration-enter",
+        "value": "0.5s–0.7s",
+        "purpose": "Hero and section content fade-up on load or in view."
+      },
+      {
+        "name": "duration-inview",
+        "value": "0.5s",
+        "purpose": "Standard whileInView transition with optional stagger delay."
+      },
+      {
+        "name": "petal-fall",
+        "value": "linear, 10–24s, infinite",
+        "purpose": "SakuraField vertical drift with horizontal sway and rotation."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation-duration: 0.01ms; transition-duration: 0.01ms",
+        "purpose": "Global CSS override under prefers-reduced-motion; Motion hooks return initial:false."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px", "purpose": "Footer column layout." },
+      { "name": "md", "value": "768px", "purpose": "Type scale, padding, nav sizing." },
+      { "name": "lg", "value": "1024px", "purpose": "Team and portfolio card grid splits." }
+    ],
+    "patterns": [
+      {
+        "name": "pattern-diagonal",
+        "css": "repeating-linear-gradient(-45deg, var(--pattern-ink-mid) 0, var(--pattern-ink-mid) 1px, transparent 1px, transparent 18px, var(--pattern-ink) 18px, var(--pattern-ink) 19px, transparent 19px, transparent 48px)",
+        "purpose": "Light-section intermittent hatch overlay."
+      },
+      {
+        "name": "pattern-diagonal-dark",
+        "css": "repeating-linear-gradient(-45deg, var(--pattern-ink-dark) 0, var(--pattern-ink-dark) 1px, transparent 1px, transparent 20px, rgba(248,236,232,0.03) 20px, rgba(248,236,232,0.03) 21px, transparent 21px, transparent 52px)",
+        "purpose": "Dark-section hatch overlay for about, contact, footer."
+      },
+      {
+        "name": "pattern-waves",
+        "css": "repeating-linear-gradient(-12deg, transparent, transparent 14px, var(--pattern-ink) 14px, var(--pattern-ink) 15px)",
+        "purpose": "Photo placeholder fill in team cards."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Text Link Primary",
+      "kind": "button",
+      "refersTo": "link-primary",
+      "description": "Underlined hero/section CTA with 44px tap target.",
+      "html": "<a href=\"#portfolio\" class=\"ds-link-primary\">View our work</a>",
+      "css": ".ds-link-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding: 0.5rem 0.75rem; font-family: var(--font-body); font-size: 0.875rem; font-weight: 500; color: var(--fg); text-decoration: underline; text-underline-offset: 4px; text-decoration-color: var(--border-strong); transition: text-decoration-color 0.2s; } .ds-link-primary:hover { text-decoration-color: var(--fg); } .ds-link-primary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Link Muted",
+      "kind": "button",
+      "refersTo": "link-muted",
+      "description": "Secondary text link without underline.",
+      "html": "<a href=\"#team\" class=\"ds-link-muted\">Meet the team →</a>",
+      "css": ".ds-link-muted { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding: 0.5rem 0.75rem; font-family: var(--font-body); font-size: 0.875rem; color: var(--muted); text-decoration: none; transition: color 0.2s; } .ds-link-muted:hover { color: var(--fg); } .ds-link-muted:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Square outline CTA that inverts on hover — portfolio product link.",
+      "html": "<a href=\"https://resumurai.com\" class=\"ds-btn-outline\" target=\"_blank\" rel=\"noopener noreferrer\">Visit Resumurai ↗</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; padding: 0.625rem 1.25rem; font-family: var(--font-body); font-size: 0.875rem; color: var(--fg); background: transparent; border: 1px solid var(--fg); text-decoration: none; transition: background 0.2s, color 0.2s; } .ds-btn-outline:hover { background: var(--fg); color: var(--bg-card); } .ds-btn-outline:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Fixed header anchor link — uppercase label with 44px height.",
+      "html": "<a href=\"/#about\" class=\"ds-nav-link\">About</a>",
+      "css": ".ds-nav-link { display: inline-flex; align-items: center; min-height: 44px; padding: 0.625rem 0.5rem; font-family: var(--font-body); font-size: 0.7rem; font-weight: 400; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color 0.2s; } .ds-nav-link:hover { color: var(--fg); } .ds-nav-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }"
+    },
+    {
+      "name": "Fixed Nav Bar",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Glass header with diagonal pattern, logo lockup, and primary nav.",
+      "html": "<header class=\"ds-nav\"><div class=\"ds-nav-inner\"><a href=\"/\" class=\"ds-nav-brand\"><img src=\"/brand/gizakura-logo.svg\" alt=\"\" width=\"32\" height=\"32\" /><span>Gizakura</span></a><nav aria-label=\"Primary\"><a href=\"/#about\" class=\"ds-nav-link\">About</a><a href=\"/#team\" class=\"ds-nav-link\">Team</a><a href=\"/#portfolio\" class=\"ds-nav-link\">Portfolio</a><a href=\"/#contact\" class=\"ds-nav-link\">Contact</a></nav></div></header>",
+      "css": ".ds-nav { position: fixed; inset: 0 0 auto 0; z-index: 50; background: var(--nav-glass); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); background-image: repeating-linear-gradient(-45deg, var(--pattern-ink-mid) 0, var(--pattern-ink-mid) 1px, transparent 1px, transparent 18px, var(--pattern-ink) 18px, var(--pattern-ink) 19px, transparent 19px, transparent 48px); } .ds-nav-inner { max-width: 72rem; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.5rem 1rem; } .ds-nav-brand { display: inline-flex; align-items: center; gap: 0.625rem; min-height: 44px; padding: 0.5rem 0.75rem; text-decoration: none; color: var(--fg); } .ds-nav-brand span { font-family: var(--font-display); font-size: 1.25rem; font-weight: 400; letter-spacing: -0.025em; } .ds-nav-brand img { width: 1.75rem; height: 1.75rem; } .ds-nav nav { display: flex; align-items: center; gap: 0.25rem; }"
+    },
+    {
+      "name": "Product Tag Chip",
+      "kind": "chip",
+      "refersTo": "tag-chip",
+      "description": "Border-only product descriptor tag.",
+      "html": "<span class=\"ds-tag\">Next.js</span>",
+      "css": ".ds-tag { display: inline-block; padding: 0.25rem 0.75rem; font-family: var(--font-body); font-size: 0.75rem; letter-spacing: 0.025em; color: var(--muted); border: 1px solid var(--border-strong); background: transparent; }"
+    },
+    {
+      "name": "Team Card",
+      "kind": "card",
+      "refersTo": "button-outline",
+      "description": "Founder profile card — bordered white surface with soft sidebar.",
+      "html": "<article class=\"ds-team-card\"><div class=\"ds-team-sidebar\"><p class=\"ds-team-index\">01</p><div class=\"ds-team-photo\"></div><h3 class=\"ds-team-name\">Founder Name</h3><p class=\"ds-team-role\">Role</p></div><div class=\"ds-team-body\"><p class=\"ds-section-label\">001 — About</p><p class=\"ds-team-bio\">Bio paragraph text.</p></div></article>",
+      "css": ".ds-team-card { overflow: hidden; border: 1px solid var(--border); background: var(--bg-card); display: grid; grid-template-columns: 1fr; } @media (min-width: 1024px) { .ds-team-card { grid-template-columns: minmax(200px, 280px) 1fr; } } .ds-team-sidebar { padding: 1.5rem 2rem; background: var(--bg-soft); border-bottom: 1px solid var(--border); } @media (min-width: 1024px) { .ds-team-sidebar { border-bottom: none; border-right: 1px solid var(--border); } } .ds-team-index { font-family: var(--font-display); font-size: 2.25rem; font-variant-numeric: tabular-nums; color: var(--accent); opacity: 0.9; margin: 0; } .ds-team-photo { margin-top: 1.25rem; aspect-ratio: 1; max-width: 180px; border-radius: 9999px; border: 1px solid var(--border); background: var(--bg-team); } .ds-team-name { font-family: var(--font-display); font-size: 1.5rem; letter-spacing: -0.025em; margin: 1.25rem 0 0; color: var(--fg); } .ds-team-role { font-size: 0.875rem; color: var(--muted); margin: 0.25rem 0 0; } .ds-team-body { padding: 1.5rem 2.5rem 3rem; } .ds-section-label { font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--faint); margin: 0; } .ds-team-bio { margin-top: 0.75rem; font-size: 1rem; line-height: 1.75; color: var(--muted); max-width: 42rem; }"
+    },
+    {
+      "name": "Section Number Label",
+      "kind": "custom",
+      "refersTo": "tag-chip",
+      "description": "Canonical section opener — NNN — Title format.",
+      "html": "<p class=\"ds-section-number\">001 — About</p>",
+      "css": ".ds-section-number { font-family: var(--font-body); font-size: 0.7rem; font-weight: 400; letter-spacing: 0.22em; text-transform: uppercase; color: var(--faint); margin: 0; } .ds-section-number:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }"
+    },
+    {
+      "name": "Contact Email Link",
+      "kind": "button",
+      "refersTo": "link-primary",
+      "description": "Large email link on dark contact section.",
+      "html": "<a href=\"mailto:founders@gizakura.com\" class=\"ds-contact-email\">founders@gizakura.com</a>",
+      "css": ".ds-contact-email { display: inline-flex; align-items: center; min-height: 44px; padding: 0.5rem 0.75rem; font-family: var(--font-body); font-size: 1.25rem; color: var(--contact-link); text-decoration: none; transition: filter 0.2s; } @media (min-width: 768px) { .ds-contact-email { font-size: 1.5rem; } } .ds-contact-email:hover { filter: brightness(1.1); } .ds-contact-email:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }"
+    },
+    {
+      "name": "Sakura Petal",
+      "kind": "custom",
+      "refersTo": "tag-chip",
+      "description": "Ambient falling petal shape — signature motion element.",
+      "html": "<span class=\"ds-petal\" aria-hidden=\"true\"></span>",
+      "css": ".ds-petal { display: block; position: absolute; width: 12px; height: 8.64px; border-radius: 70% 10% 60% 20%; background: linear-gradient(135deg, #f2b8c0 0%, #e88996 55%, #d46a78 100%); opacity: 0.5; filter: blur(0.2px); } @media (prefers-reduced-motion: reduce) { .ds-petal { animation: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Late-Spring Editorial",
+    "overview": "Gizakura reads like a printed studio folio translated to the web — warm pink-cream grounds, Instrument Serif headlines with editorial restraint, and intermittent diagonal hatch texture instead of glossy UI chrome. Each scroll section shifts tonal register (hero blush, dark about band, neutral team, stone portfolio, ink contact) so depth comes from paper-like layering rather than shadows. Sakura petals drift through hero and section backgrounds as ambient motion; section order is announced with numbered labels (001–004).\n\nThe system favors honest, student-founder craft: square-bordered cards, text-first CTAs, and no invented polish. Partners and press should feel they are reading a real studio's materials, not a template.",
+    "keyCharacteristics": [
+      "Pink-cream tonal sections with --bg-* per scroll band",
+      "Instrument Serif display + Figtree body via next/font",
+      "Diagonal hatch patterns (.pattern-diagonal, .pattern-diagonal-dark) at varied opacity",
+      "Section numbering 001 — About through 004 — Contact",
+      "Sakura petal ambient motion with prefers-reduced-motion fallbacks",
+      "Flat surfaces — borders and tone, not box shadows",
+      "44px minimum tap targets and accent focus rings"
+    ],
+    "rules": [
+      {
+        "name": "The Tonal Section Rule",
+        "body": "Each major scroll section uses its own --bg-* token. Do not flatten the page to a single background — the register shift is the rhythm.",
+        "section": "colors"
+      },
+      {
+        "name": "The Accent Sparingly Rule",
+        "body": "Sakura rose appears on focus rings, selection, founder indices, and small bullet dots — not as primary button fills or large fields.",
+        "section": "colors"
+      },
+      {
+        "name": "The Display Restraint Rule",
+        "body": "Instrument Serif carries headlines and names; body copy, nav, and labels stay in Figtree. Do not set long paragraphs in the display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Section Number Rule",
+        "body": "Main scroll sections use the NNN — Title label format (001–004). This is the canonical section opener — not decorative kickers elsewhere.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Do not add drop shadows to cards, buttons, or nav. If something needs emphasis, use border weight, background shift, or the accent color — not elevation shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do assign each scroll section its own --bg-* surface token and optional pattern overlay at documented opacity.",
+      "Do use Instrument Serif for display headlines and Figtree for everything else.",
+      "Do format main section openers as NNN — Title (001–004).",
+      "Do wrap interactive elements in .tap-target or .nav-link for 44px touch targets.",
+      "Do respect prefers-reduced-motion via useMotionSafe() and global CSS — static petals, no enter animations.",
+      "Do use --contact-* tokens exclusively inside the contact section for readable rose-on-dark type.",
+      "Do keep cards flat with 1px borders — no shadows."
+    ],
+    "donts": [
+      "Don't add box shadows — the editorial world is flat and paper-toned.",
+      "Don't use filled primary buttons; CTAs are text links or outline inverts.",
+      "Don't genericize into default SaaS chrome (rounded pill buttons, gradient heroes, glyph icon sets).",
+      "Don't use --faint for long body copy on light backgrounds — reserve it for labels; body copy uses --muted.",
+      "Don't treat every uppercase tracking label as a system pattern — only section numbers (001–004) are canonical openers."
+    ],
+    "notCanonized": "Per-card uppercase field labels (Where things are, Passions, Live product, Coming soon) and the hero tagline kicker with rule line are build artifacts — documented as present but not promoted to system doctrine beyond the canonical 001–004 section numbers."
+  }
+}

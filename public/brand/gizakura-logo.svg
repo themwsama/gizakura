@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f9e9e5"/>
+      <stop offset="100%" stop-color="#f3ddd8"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dfa0aa"/>
+      <stop offset="100%" stop-color="#c45c6a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g transform="translate(200 200)">
+    <ellipse cx="0" cy="-52" rx="28" ry="44" fill="url(#petal)" opacity="0.95" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-52" rx="28" ry="44" fill="url(#petal)" opacity="0.95" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-52" rx="28" ry="44" fill="url(#petal)" opacity="0.95" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-52" rx="28" ry="44" fill="url(#petal)" opacity="0.95" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-52" rx="28" ry="44" fill="url(#petal)" opacity="0.95" transform="rotate(288)"/>
+    <circle cx="0" cy="0" r="14" fill="#1a1917"/>
+    <circle cx="0" cy="0" r="6" fill="#f9e9e5" opacity="0.35"/>
+  </g>
+</svg>
